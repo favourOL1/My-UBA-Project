@@ -215,6 +215,7 @@
         flex-direction: column;
         position: relative;
         margin-top:20px;
+        margin-left: 10px;
         gap: 200px;
 
         /* padding-bottom: 250px; */
@@ -291,7 +292,8 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .question h1{
-        font-size:large;
+        font-size:medium;
+        margin-right: 50px;
     }
     .Terms p{
         font-size:small;
