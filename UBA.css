@@ -125,6 +125,13 @@ nav{
     position: relative;
 }
 
+.sub-theme{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-family: sans-serif;
+}
+
 .Theme h1 {
     color: white;
     margin-left: 70px;
@@ -272,27 +279,37 @@ button #img{
 
 }
 .section2{
+    width: 50%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     text-align:justify;
     color: white;
+    margin-top: 40px;
+}
+
+.sect2{
+    display: flex;
+    flex-direction: row;
 }
 
 
 .second .section2 h2{
     display: flex;
     font-family: sans-serif;
-    margin: 40px;
+    /* margin-left: 40px; */
 }
 
 .second .section2 h1{
     font-family: sans-serif;
-    margin: 40px;
+    /* margin: 40px; */
     font-size:40px;
 }
 
 .second .section2 h3{
     font-family: sans-serif;
-    margin: 40px;
+    /* margin: 40px; */
     font-weight: 100;
 }
 
@@ -804,3 +821,5 @@ h4{
 .white-nav a{
     color: gray;
 }
+
+

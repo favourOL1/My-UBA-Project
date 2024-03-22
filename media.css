@@ -37,10 +37,16 @@
     }
     #lock{
         position: absolute;
-        margin-left: 25px;
+        margin-left: 20px;
     }
-    #menu{
-        color: transparent;
+    
+    .search{
+        color: gray;
+    }
+
+    .menu{
+        zoom: 2;
+        color: gray;
     }
 }
 
@@ -93,12 +99,11 @@
         font-family: sans-serif;
     }
     
-    .Theme p {
+    .sub-theme p {
         color: white;
-        /* margin-left: 70px;
-        margin-top: 50px; */
-        font-size: 20px;
+        font-size: 15px;
         font-family: sans-serif;
+
     }
     .first{
         margin-top: 50px;
@@ -136,21 +141,27 @@
     }
     .second {
         position: relative;
-        font-size:small;
         width: 100%;
     }
+
     .section2{
-        /* margin-left: 10px;
-        margin-bottom: 10px; */
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        font-size:small;
+        margin-left: 40px;
+
+    }
+    
+    .sect2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
     }
 
     .second .section2 h1{
         font-size: medium;
-    }
-
-    #FIND{
-        margin-top: 0px;
-        margin-bottom: 20px;
     }
 
     .Third{
@@ -193,7 +204,7 @@
     }
 
     .fourth h1{
-        margin-left: -200px;
+        margin-left: -160px;
     }
 
     #business{
@@ -332,7 +343,7 @@
     }
     #cnt{
         width: 90%;
-        margin-left: 60px;
+       
     }
     .tenth{
         width: 100%;
