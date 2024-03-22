@@ -1,0 +1,351 @@
+@media screen and (max-width: 1200px) {
+    *{
+        margin: 0px;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .top-nav {
+        display: none;
+    }
+    .phonelogin{
+        display:flex;
+        color: white;
+        margin-top:5px;
+        margin-left: 5px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 180px;
+    }
+    .button{
+        display: none;
+    }
+    #login{
+        position: static;
+        width:80px;
+        height: 30px;
+        color: white;
+        background-color: red;
+        padding-left: 20px;
+        border: none;
+        outline: none;
+        text-align: center;
+        border-radius: 5px;
+        /* padding-top: 20px;
+        padding-bottom: 30px; */
+    }
+    #lock{
+        position: absolute;
+        margin-left: 25px;
+    }
+    #menu{
+        color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        position: relative;
+        gap:2px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .box button {
+        flex-direction: row-reverse;
+        width: 100%;
+        border-radius: 0;
+        height: 80px;
+   
+    }
+
+    .UBAlogo{
+        display:block;
+        text-align: right;
+        height: 150px;
+        width: 100px;
+    }
+    .Theme{
+        justify-content: center;
+        position: relative;
+        margin-right:0px;
+    }
+    
+    .Theme h1 {
+        color: white;
+        /* margin-left: 70px;
+        margin-top: 100px; */
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .Theme p {
+        color: white;
+        /* margin-left: 70px;
+        margin-top: 50px; */
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .first{
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Right h2 {
+        font-size:large;
+    }
+
+    .Right p{
+        font-size:medium;
+    }
+
+    .innerR #Select {
+        width:100%;
+    }
+    #GET{
+        width: 100%;
+    }
+
+    #leo{
+        position: relative;
+        /* margin-left: 10px; */
+        height: 250px;
+        width: 350px;
+    }
+    #play{
+        position:absolute;
+        margin-top: -150px;
+        margin-left: 130px;
+    }
+    .second {
+        position: relative;
+        font-size:small;
+        width: 100%;
+    }
+    .section2{
+        /* margin-left: 10px;
+        margin-bottom: 10px; */
+    }
+
+    .second .section2 h1{
+        font-size: medium;
+    }
+
+    #FIND{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .Third{
+        display:flex;
+        position:relative;
+        flex-direction:column;
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    #third1{
+        background-color:white;
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .fourth{
+        display:flex;
+        position:relative;
+        height: 350px;
+        flex-direction:column;
+        align-items:center;
+        padding-top: 10px;
+        /* padding-bottom: 150px; */
+
+    }
+    .RightAcc #p1{
+        font-size:large;
+        margin-left:0px;
+    }
+    .btn{
+        height: 100px;
+        width: 30%;
+
+    }
+    #personal{
+        margin-left: -200px;
+    }
+
+    .fourth h1{
+        margin-left: -200px;
+    }
+
+    #business{
+        margin-left: -200px;
+    }
+    .fifth{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top:20px;
+        gap: 200px;
+
+        /* padding-bottom: 250px; */
+        width: 100%;
+        
+    }
+    #fifth1{
+       width:95%;
+       height: 300px;
+       background-color: white;
+    }
+
+    .fifth #UBA{
+        width: 100%;
+        height: 180%;
+    }
+
+    .fifth #uba{
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+
+    #fifth2{
+        margin-top: 60px;
+        width:95%;
+        height: 500px;
+    }
+
+
+    #fifth2 h1 {
+        font-size: x-large;
+        font-weight: 900;
+    }
+
+    #fifth2 p{
+        font-size: large;
+        /* padding-bottom: 20px; */
+    }
+
+    #world{
+        margin-top: 5px;
+        margin-left: 30px;
+        display: flex;
+        padding-bottom: 5px;
+    }
+
+    .sixth{
+        width: 100%;
+        display: flex;
+        justify-content:center ;
+        flex-direction: column;
+        position: relative;
+        /* padding-bottom: 800px; */
+    }
+
+    #sixth1{
+        margin-right: 30px;
+        display: flex;
+        flex-direction:column;
+        background-color: #f3f3f3;
+        width:  90%;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #sixth2{
+        display: flex;
+        flex-direction:column;
+        background-color:red;
+        text-align: center;
+        width: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .question h1{
+        font-size:large;
+    }
+    .Terms p{
+        font-size:small;
+    }
+    .seventh{
+        width: 100%;
+
+    }
+    #Message{
+        width: 100%;
+    }
+
+    .Eight{
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+    }
+    
+    #eight{
+        background-color:red;
+        width: 100%;
+        padding-top: 50px;
+        
+    }
+
+    .nineth{
+        position: relative;
+        display: flex;
+        width: 100%;
+        /* padding-bottom:0px; */
+        margin-left:0px;
+    }
+    .nineth1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+
+    }
+    .nineth1 #media{
+        display: flex;
+        width: 100%;
+    }
+    #sum{
+        text-align: center;
+        margin-left: 10px;
+        padding-left: 22px;
+        width: 90%;
+    }
+    #cnt{
+        width: 90%;
+        margin-left: 60px;
+    }
+    .tenth{
+        width: 100%;
+    }
+
+
+    
+    /* javascript classes */
+
+    .white-nav {
+        background-color: white;
+        height: 130px;
+    }
+} 
+
+
