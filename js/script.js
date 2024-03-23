@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
         const scrollY = window.scrollY
 
-        if(scrollY > 100) {
+        if(scrollY > 50) {
             navbar.classList.add('white-nav')
         } else{
             navbar.classList.remove('white-nav')
