@@ -57,6 +57,11 @@
         box-sizing: border-box;
     }
     
+    body{
+        overflow-x: hidden;
+        overflow-y:auto;
+    }
+    
     .container{
         padding-left: 20px;
         padding-right: 20px;
